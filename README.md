@@ -13,8 +13,6 @@
 
 ## Tecnologías utilizadas
 
-- HTML5
-- CSS3
 - JavaScript
 - Node.js + npm
   Módulos:
