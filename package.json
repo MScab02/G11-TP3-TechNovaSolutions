@@ -11,7 +11,7 @@
     "url": "git+https://github.com/MScab02/G11-TP3-TechNovaSolutions.git"
   },
   "license": "ISC",
-  "author": "Carrizo, Claros, Rodríguez, Scabusso",
+  "author": "G11 - CCRS",
   "type": "module",
   "main": "app.js",
   "scripts": {
