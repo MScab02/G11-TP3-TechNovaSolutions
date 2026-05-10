@@ -1,4 +1,22 @@
 {
+  "name": "g11-tp3-technovasolutions",
+  "version": "1.0.0",
+  "description": "Backend de TechNova Solutions",
+  "homepage": "https://github.com/MScab02/G11-TP3-TechNovaSolutions#readme",
+  "bugs": {
+    "url": "https://github.com/MScab02/G11-TP3-TechNovaSolutions/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MScab02/G11-TP3-TechNovaSolutions.git"
+  },
+  "license": "ISC",
+  "author": "2J3M",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
