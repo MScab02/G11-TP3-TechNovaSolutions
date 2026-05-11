@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Desarrollo Web",
+    "precio": 500
+  },
+  {
+    "id": 2,
+    "nombre": "Diseño UX/UI",
+    "precio": 300
+  }
+]

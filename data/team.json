@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "nombre": "Matias",
+    "rol": "frontend y login"
+  },
+  {
+    "id":2,
+    "nombre": "matko",
+    "rol": "API servicios"
+  }
+]
