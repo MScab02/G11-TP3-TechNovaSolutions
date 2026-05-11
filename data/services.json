@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "nombre": "Desarrollo de software a medida",
+    "descripcion": "Creamos aplicaciones web modernas",
+    "precio": 25000
+  },
+  {
+    "id": 2,
+    "nombre": "Ciberseguridad",
+    "descripcion": "PRotección de datos, auditorías de seguridad y sistemas de vigilancia",
+    "precio": 25000
+  },
+  {
+    "id": 3,
+    "nombre": "Inteligencia artificial aplicada",
+    "descripcion": "Análisis predictivo y ciencia de datos para mejorar la toma de decisiones",
+    "precio": 30000
+  }
+]
