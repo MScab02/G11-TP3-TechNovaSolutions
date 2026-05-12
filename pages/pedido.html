@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="HeaderLeft">
+        <a href="../index.html">
+          <h1>TechNova Solutions</h1>
+        </a>
+        </div>
+        <div class="HeaderRight">
+        <nav>
+          <ul>
+            <li><a href="./servicios.html">Servicios</a></li>
+            <li><a href="./equipo.html">Equipo</a></li>
+            <li><a href="./pedido.html">Pedidos</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./faq.html">FAQ</a></li>
+          </ul>
+        </nav>
+        </div>
+    </header>
+    <main>
+    <h2>PEDIDOS</h2>
+    <form action="pedido.html" method="post">
+        <div>
+            <label for="nombre">Nombre del cliente:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Nombre del cliente">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="apellido">Apellido del cliente:</label>
+            <input type="text" id="apellido" name="apellido" placeholder="Apellido del cliente">
+        </div>
+
+        <br>
+        
+        <div>
+            <label for="pedido">Pedido:</label>
+            <input type="text" id="pedido" name="pedido" placeholder="Pedido">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="telefono">Teléfono:</label>
+            <input type="number" id="telefono" name="telefono" placeholder="Teléfono">
+        </div>
+
+        <br>
+
+        <div>
+            <Label for="fecha">Fecha de entrega:</Label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="pago">Método de pago:</label>
+            <select id="pago" name="pago">
+                <option value="efectivo">Efectivo</option>
+                <option value="tarjeta">Tarjeta</option>
+                <option value="transferencia">Transferencia</option>
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="radio">¿Desea entrega a domicilio?</label>
+            <input type="radio" id="radio" name="radio" value="si">
+            <label for="radio">Sí</label>
+            <input type="radio" id="radio" name="radio" value="no">
+            <label for="radio">No</label>
+        </div>
+
+        <br>
+
+        <div>
+            <label for="comentarios">Comentarios Adicionales:</label>
+            <br>
+            <textarea id="comentarios" name="comentarios" placeholder="Ingrese comentarios adicionales aquí..."></textarea>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="reset" id="reiniciar" name="reiniciar" value="Reiniciar pedido">
+            <input type="submit" id="enviar" name="enviar" value="Enviar pedido">
+        </div>
+    </main>
+
+    <footer>
+        <p>Gracias por su pedido. Nos pondremos en contacto con usted pronto.</p>
+    </footer>
+
+    </form>

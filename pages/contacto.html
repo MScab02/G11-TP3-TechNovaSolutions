@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+
+  <link rel="icon" type="image/png" href="../assets/favicon/Apple.png">
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+
+    <header>
+            <div class="HeaderLeft">
+                
+                
+                    <a href="../index.html">
+                        <h1>TechNova Solutions</h1>
+                    </a>
+                
+            </div>
+
+            <div class="HeaderRight">
+                <nav>
+                    <ul>
+                        <li><a href="./servicios.html">Servicios</a></li>
+                        <li><a href="./equipo.html">Equipo</a></li>
+                        <li><a href="./pedido.html">Pedidos</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                        <li><a href="./faq.html">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+
+<main>
+
+  <section>
+    <h2>Contacto</h2>
+
+    <form class="formContacto" action="https://httpbin.org/post" method="POST">
+    
+      <p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </p>
+  
+      <p>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+      </p>
+  
+      <p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </p>
+  
+      <p>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+      </p>
+  
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+
+    </form>
+  </section>
+</main>
+
+  <footer>
+    <p>&copy; 2026 TechNova Solutions. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
