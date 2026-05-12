@@ -20,3 +20,5 @@ router.get("/:id", (req, res) => {
       mensaje: "Usuario no encontrado"
     })};
 });
+
+module.exports = router;

@@ -4,6 +4,10 @@ const router = express.Router();
 
 const users = require("../data/users.json");
 
+router.get("/", (req, res) => {
+  res.send("Ruta login funcionando");
+  });
+
 router.post("/", (req, res) => {
 
   const { email, password } = req.body;
@@ -13,9 +17,12 @@ router.post("/", (req, res) => {
     user.password === password
   );
 
+
   if (user) {
     res.json({
       mensaje: "Login correcto",
       user
     })}
 });
+
+module.exports = router;
