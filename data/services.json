@@ -1,0 +1,133 @@
+[
+  {
+    "id": 1,
+    "nombre": "Desarrollo de software",
+    "descripcionCorta": "Creación de aplicaciones a medida según sus necesidades.",
+    "descripcionLarga": "Creamos soluciones de software personalizadas para su negocio o necesidades, desde aplicaciones web como plataformas e-commerce, hasta aplicaciones de escritorio o apps móviles para conectar con sus usuarios y clientes. Nuestro equipo de expertos en desarrollo de software trabaja con las últimas tecnologías para garantizar que su proyecto sea innovador, eficiente y escalable.",
+    "subservicios": [
+      {
+        "id": 1,
+        "nombre": "Aplicaciones web",
+        "descripcionCorta": "Desarrollo de aplicaciones web personalizadas.",
+        "descripcionLarga": "Desarrollo de aplicaciones web que se ajustan a sus necesidades, cubriendo todo el proceso, desde el diseño de la interfaz de usuario hasta la implementación de funcionalidades avanzadas. Utilizamos tecnologías modernas para crear aplicaciones web rápidas, seguras y intuitivas.",
+        "precio": 1000,
+        "duracion": "30 días",
+        "contiene": ["Frontend", "Backend", "APIs", "Bases de datos"]
+      },
+      {
+        "id": 2,
+        "nombre": "Aplicaciones de escritorio",
+        "descripcionCorta": "Desarrollo de aplicaciones de escritorio personalizadas.",
+        "descripcionLarga": "Desarrollo de aplicaciones de escritorio que se ajustan a sus necesidades, cubriendo todo el proceso, desde el diseño de la interfaz de usuario hasta la implementación de funcionalidades avanzadas. Utilizamos tecnologías modernas para crear aplicaciones de escritorio rápidas, seguras y intuitivas.",
+        "precio": 2000,
+        "duracion": "50 días",
+        "contiene": ["Windows", "MacOS", "Linux"]
+      },
+      {
+        "id": 3,
+        "nombre": "Aplicaciones móviles",
+        "descripcionCorta": "Desarrollo de aplicaciones móviles personalizadas.",
+        "descripcionLarga": "Desarrollo de aplicaciones móviles que se ajustan a sus necesidades, cubriendo todo el proceso, desde el diseño de la interfaz de usuario hasta la implementación de funcionalidades avanzadas. Utilizamos tecnologías modernas para crear aplicaciones móviles rápidas, seguras y de diseño amigable para el usuario.",
+        "precio": 1500,
+        "duracion": "45 días",
+        "contiene": ["Android", "iOS", "APIs"]
+      },
+      {
+        "id": 4,
+        "nombre": "Sistemas administrativos",
+        "descripcionCorta": "Desarrollo de sistemas administrativos personalizados.",
+        "descripcionLarga": "Nos encargamos de desarrollar aplicaciones que le permiten gestionar su negocio de manera eficiente, abarcando las necesidades que usted necesite. Desde la gestión de inventarios, hasta la administración de recursos humanos o la contabilidad.",
+        "precio": 2500,
+        "duracion": "75 días"
+      },
+      {
+        "id": 5,
+        "nombre": "Integración de bases de datos",
+        "descripcionCorta": "Integración de bases de datos personalizadas.",
+        "descripcionLarga": "Nos encargamos del diseño y puesta a punto de bases de datos específicas para sus necesidades. Solo indíquenos qué tipo de datos necesita almacenar y cómo desea acceder a ellos, y nosotros nos encargamos de proporciona una base de datos optimizada.",
+        "precio": 1200,
+        "duracion": "30 días"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "nombre": "Servicios de ciberseguridad",
+    "descripcionCorta": "Protección de datos, auditorías de seguridad y sistemas de vigilancia.",
+    "descripcionLarga": "Nuestro equipo especializado en ciberseguridad resolverá todas sus necesidades respecto a la protección de su información y sistemas. Ofrecemos servicios de detección y respuesta ante brechas de seguridad, auditorías y evaluaciones de vulnerabilidades, protección de infraestructura y redes, así como capacitación de usuarios y buenas prácticas de seguridad para garantizar que su empresa esté protegida contra amenazas cibernéticas.",
+    "subservicios": [
+      {
+        "id": 1,
+        "nombre": "Detección y respuesta ante brechas de seguridad",
+        "descripcionCorta": "Búsqueda y respuesta rápida a incidentes de seguridad.",
+        "descripcionLarga": "Nuestro equipo especializado se pondra manos a la obra en busca de cualquier filtración o brecha que pueda haber en su sistema, y se encargará de responder de manera rápida y efectiva para minimizar el impacto de cualquier incidente de seguridad.",
+        "precio": 3000,
+        "duracion": "30 dias"
+      },
+      {
+        "id": 2,
+        "nombre": "Auditorías y evaluaciones de vulnerabilidades",
+        "descripcionCorta": "Revisamos y supervisamos la seguridad de su sistema.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de revisar y supervisar la seguridad de su sistema, identificando cualquier vulnerabilidad o debilidad que pueda ser explotada por atacantes, y proporcionando recomendaciones para mejorar la seguridad de su infraestructura.",
+        "precio": 2500,
+        "duracion": "25 dias"
+      },
+      {
+        "id": 3,
+        "nombre": "Protección de infraestructura y redes",
+        "descripcionCorta": "Protegemos sus sistemas existentes de atacantes cibernéticos.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de proteger sus sistemas existentes de atacantes cibernéticos, implementando medidas de seguridad avanzadas para proteger su infraestructura y redes contra amenazas cibernéticas.",
+        "precio": 3500,
+        "duracion": "35 dias"
+      },
+      {
+        "id": 4,
+        "nombre": "Capacitación de usuarios y buenas prácticas de seguridad",
+        "descripcionCorta": "Capacitación para su personal sobre el manejo seguro de la información y sistemas.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de capacitar a su personal en buenas prácticas de seguridad, asegurando que estén informados sobre las últimas amenazas y medidas de prevención.",
+        "precio": 2000,
+        "duracion": "20 dias"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "nombre": "Inteligencia artificial aplicada",
+    "descripcionCorta": "Desarrollo de modelos de inteligencia artificial dedicadas a mejorar la productividad y eficiencia de su empresa.",
+    "descripcionLarga": "Nuestro equipo especializado en inteligencia artificial se encargará de desarrollar modelos de inteligencia artificial dedicados a mejorar la productividad y eficiencia de su empresa. Ofrecemos servicios de desarrollo de soluciones con inteligencia artificial, asistentes virtuales especializados, automatización con inteligencia artificial, análisis de datos con inteligencia artificial, entre otros.",
+    "subservicios": [
+      {
+        "id": 1,
+        "nombre": "Desarrollo de soluciones con inteligencia artificial",
+        "descripcionCorta": "Modelos de inteligencia artificial especializadas en solucionar problemas dentro de su empresa.",
+        "descripcionLarga": "Nos encargamos de brindar modelos de inteligencia artificial a medida para la resolución de diversos problemas que puedan surgir en su empresa, como la optimización de recursos o la mejora de procesos, entre otros.",
+        "precio": 4000,
+        "duracion": "40 dias"
+      },
+      {
+        "id": 2,
+        "nombre": "Asistentes virtuales especializados",
+        "descripcionCorta": "Asistentes virtuales dedicados a mejorar la experiencia del usuario.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de desarrollar asistentes virtuales especializados para mejorar la experiencia del usuario y optimizar los procesos de atención al cliente.",
+        "precio": 3500,
+        "duracion": "35 dias"
+      },
+      {
+        "id": 3,
+        "nombre": "Automatización con inteligencia artificial",
+        "descripcionCorta": "Modelos de inteligencia artificial destinada a realizar tareas repetitivas de manera automática.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de desarrollar modelos de inteligencia artificial dedicados a automatizar tareas repetitivas y mejorar la eficiencia operativa de su empresa.",
+        "precio": 3000,
+        "duracion": "30 dias"
+      },
+      {
+        "id": 4,
+        "nombre": "Análisis de datos con inteligencia artificial",
+        "descripcionCorta": "Modelos de inteligencia artificial enfocadas en procesamiento de datos.",
+        "descripcionLarga": "Nuestro equipo especializado se encargará de desarrollar modelos de inteligencia artificial dedicados al análisis de datos y la generación de insights para mejorar la toma de decisiones en su empresa.",
+        "precio": 4500,
+        "duracion": "45 dias"
+      }
+    ]
+  }
+]
