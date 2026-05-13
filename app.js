@@ -1,14 +1,25 @@
-import express from "express";
-import cors from "cors";
-
-import servicesRoutes from "./routes/serviceRoutes.js";
+const express = require("express");
 
 const app = express();
 
-app.use(cors());
+const PORT = 3000;
 
 app.use(express.json());
 
-app.use("/services", servicesRoutes);
+app.get("/", (req, res) => {
+  res.send("Servidor TechNova funcionando 🚀");
+});
 
-export default app;
+const servicesRoutes = require("./routes/servicesRoutes");
+const teamRoutes = require("./routes/teamRoutes");
+const loginRoutes = require("./routes/loginRoutes");
+const profileRoutes = require("./routes/profileRoutes");
+
+app.use("/services", servicesRoutes);
+app.use("/equipo", teamRoutes);
+app.use("/login", loginRoutes);
+app.use("/perfil", profileRoutes);
+
+app.listen(PORT, () => {
+  console.log(`Servidor funcionando en puerto ${PORT}`);
+});

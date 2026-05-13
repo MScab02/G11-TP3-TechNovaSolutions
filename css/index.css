@@ -1,0 +1,21 @@
+.HeaderRight nav ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.HeaderLeft a {
+  text-decoration: none;
+}
+
+.HeaderRight a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
