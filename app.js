@@ -10,7 +10,6 @@ app.get("/", (req, res) => {
   res.send("Servidor TechNova funcionando 🚀");
 });
 
-
 const servicesRoutes = require("./routes/servicesRoutes");
 const teamRoutes = require("./routes/teamRoutes");
 const loginRoutes = require("./routes/loginRoutes");
