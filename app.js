@@ -1,9 +1,11 @@
+import cors from "cors";
 import express from "express";
 
 const app = express();
 
 const PORT = 3000;
 
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
@@ -22,6 +24,4 @@ app.use("/equipos", equiposRoutes);
 
 app.use("/assets/icon", express.static("assets/icon")); //esto es para las imagenes
 
-app.listen(PORT, () => {
-  console.log(`Servidor funcionando en puerto ${PORT}`);
-});
+export default app;

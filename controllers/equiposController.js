@@ -1,28 +1,9 @@
-export const getServices= (req, res) => {
-    res.json([
-        {
-            id: 1,
-            nombre: "frontend"
-        },
-        {
-            id: 2, 
-            nombre: "backend"
-        }
-    ]);
-};
+import fs from "fs";
 
-export const getServiceById= (req, res) => {
-    const id = req.params.id;
-    res.json({
-        id: id,
-        nombre: `Servicio${id}`
-    });
-};
+export const getEquipos = (req, res) => {
+  const data = JSON.parse(
+    fs.readFileSync("./data/equipos.json", "utf-8")
+  );
 
-export const getSubserviceById= (req, res) => {
-    const id = req.params.id;
-    res.json({
-        id: id,
-        nombre: `Subservicio${id}`
-    });
+  res.json(data);
 };
