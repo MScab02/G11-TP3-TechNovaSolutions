@@ -11,18 +11,21 @@
     "url": "git+https://github.com/MScab02/G11-TP3-TechNovaSolutions.git"
   },
   "license": "ISC",
-  "author": "2J3M",
+  "author": "G11 - CCRS",
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "^10.3.0",
     "nodemon": "^3.1.14"
-  }
+  },
+  "keywords": []
 }
