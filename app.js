@@ -1,5 +1,4 @@
-
-const express = require("express");
+import express from "express";
 
 const app = express();
 
@@ -11,22 +10,18 @@ app.get("/", (req, res) => {
   res.send("Servidor TechNova funcionando 🚀");
 });
 
+import serviceRoutes from "./routes/serviceRoutes.js";
 import equiposRoutes from "./routes/equiposRoutes.js";
+//import loginRoutes from "./routes/loginRoutes.js";
+//import profileRoutes from "./routes/profileRoutes.js";
 
-const servicesRoutes = require("./routes/servicesRoutes");
-const teamRoutes = require("./routes/teamRoutes");
-const loginRoutes = require("./routes/loginRoutes");
-const profileRoutes = require("./routes/profileRoutes");
-
-app.use("/services", servicesRoutes);
-app.use("/equipo", teamRoutes);
-app.use("/login", loginRoutes);
-app.use("/perfil", profileRoutes);
+app.use("/services", serviceRoutes);
+app.use("/equipos", equiposRoutes);
+//app.use("/login", loginRoutes);
+//app.use("/perfil", profileRoutes);
 
 app.use("/assets/icon", express.static("assets/icon")); //esto es para las imagenes
-app.use("/equipos", equiposRoutes);
 
 app.listen(PORT, () => {
   console.log(`Servidor funcionando en puerto ${PORT}`);
 });
-
