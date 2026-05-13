@@ -30,10 +30,10 @@ https://g11-tp3-technovasolutions.onrender.com
 
 ### División del trabajo
 
-Matías: Página login/perfil y unión del Back-End con el Front-End.
+Matías: Página login/perfil, unión del Back-End con el Front-End y deploy de frontend en GitHub Pages.
 Jeremías: Front-End.
 María: API de equipos.
-Matko: API de servicios y deploy en Render.
+Matko: API de servicios y deploy del Back-End en Render.
 
 ## Tecnologías utilizadas
 
