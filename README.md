@@ -8,7 +8,7 @@ Proyecto de Front-End + Back-End para la empresa ficticia TechNova Solutions.
 El proyecto consiste en la unión del trabajo práctico N°1 (Front-End) con el trabajo práctico N°3 (actual) (Back-End), utilizando [Render]:https://render.com para hostearlo de manera pública.
 
 El enlace al deploy se encuentra a continuación:
-_~enlace a deploy en render~_
+https://g11-tp3-technovasolutions.onrender.com
 
 ## Grupo 11
 
