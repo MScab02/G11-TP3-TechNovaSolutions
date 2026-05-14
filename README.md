@@ -3,12 +3,11 @@
 ## Descripción
 
 ### TechNova Solutions
-Technova Solutions es una página web que usa API REST desarrollada con Node.js y Express. El frontend está en Github Pages y el backend en Render, lo que nos permite la comunicación entre ambas partes mediante fetch.
 
 Proyecto de Front-End + Back-End para la empresa ficticia TechNova Solutions.
-El proyecto consiste en la unión del trabajo práctico N°1 (Front-End) con el trabajo práctico N°3 (actual) (Back-End), utilizando [Render]:https://render.com para hostearlo de manera pública.
+El proyecto consiste en el diseño de una página web constituida por dos partes: una API REST desarrollada con Node.js y Express, y alojada en Render; y el Front-End desarrollado en el TP1 modificado y alojado en GitHub Pages, lo que permite la comunicación entre ambas partes por medio de un fetch
 
-El enlace al deploy se encuentra a continuación:
+El enlace al deploy en Render se encuentra a continuación:
 https://g11-tp3-technovasolutions.onrender.com
 
 ## Grupo 11
@@ -20,7 +19,11 @@ https://g11-tp3-technovasolutions.onrender.com
 - María Rodríguez
 - Matko Scabusso
 
-### Metodología de Git
+UTN | Programación III | 2026
+
+### Metodología de Git y GitHub
+
+El proyecto se desarrolló usando Git con ramas individuales por integrante. Cada integrante trabajó en su rama y luego realizó Pull Request hacia `dev`, luego los cambios estables en `dev` se mueven con Pull Request a la rama `main`.
 
 - Rama `main`: Versión final del Back-End.
 - Rama `dev`: Rama donde juntamos todos los cambios hechos en cada rama personal.
@@ -157,11 +160,3 @@ Este archivo es el encargado de levantar y lanzar el servidor, y el que permite 
   "descripcion": "Especialista en desarrollo y soluciones tecnológicas."
 }
 ```
-- Matías: Página login/perfil + deploy
-- Jeremías: Frontend
-- María: API de equipo
-- Matko: API
-
-## Metodología de trabajo con Git y Github.
-
-El proyecto se desarrolló usando Git con ramas individuales por integrante. Cada integrante trabajó en su rama y luego realizó Pull Request hacia dev.
