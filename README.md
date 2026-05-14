@@ -39,6 +39,18 @@ Jeremías: Front-End.
 María: API de equipos.
 Matko: API de servicios y deploy del Back-End en Render.
 
+## Front-end (TP1)
+
+El Front-end del proyecto fue desarrollado en el repositorio del TP1 y modificado para consumir datos desde la API del Back-end. El mismo fue desplegado usando Github Pages y realiza peticiones a la API alojada en Render mediante fetch.
+
+Enlace al Front-end: https://matiascarrizo09.github.io/technova-solutions/
+
+El Front-end pide los datos de forma asincrona usando fetch y el Back-end responde con información en formato JSON.
+
+- Se reemplazaron los datos estáticos por datos traídos desde la API.
+- Se implementó fetch para consumir el Back-end.
+- Se cambiaron las rutas locales por la URL del deploy en Render.
+
 ## Tecnologías utilizadas
 
 - Front-End:
