@@ -8,8 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use("/assets", express.static("assets"));
-
 app.get("/", (req, res) => {
   res.send("Servidor TechNova funcionando 🚀");
 });
@@ -24,6 +22,7 @@ app.use("/equipos", equiposRoutes);
 //app.use("/login", loginRoutes);
 //app.use("/perfil", profileRoutes);
 
+app.use("/assets", express.static("assets"));
 app.use("/assets/icon", express.static("assets/icon")); //esto es para las imagenes
 
 export default app;
