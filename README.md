@@ -30,7 +30,7 @@ https://g11-tp3-technovasolutions.onrender.com
 
 ### División del trabajo
 
-Matías: Página login/perfil, unión del Back-End con el Front-End y deploy de frontend en GitHub Pages.
+Matías: Página login/perfil, unión del Back-End con el Front-End y deploy de Front-End en GitHub Pages.
 Jeremías: Front-End.
 María: API de equipos.
 Matko: API de servicios y deploy del Back-End en Render.
@@ -83,6 +83,43 @@ G11-TP3-TechNovaSolutions/
 ```
 
 ## Funciones
+
+### `/controllers`
+
+#### `equiposController.js`
+
+##### `getEquipos`
+
+Esta función convierte al archivo `equipos.json` de un string de texto a un conjunto de objetos para poder utilizar su contenido en la página de equipo de la empresa.
+
+#### `servicesController.js`
+
+##### `getServices`
+
+Esta función cumple la misma función que `getEquipos`, con la diferencia de que este se encarga de convertir a objetos los servicios de `services.json` y devuelve _todos_ los servicios disponibles.
+
+##### `getServiceById`
+
+Esta función muestra únicamente el servicio deseado mediante su selección por su ID, si el ID introducido no coincide con ningún servicio, devolverá un error de página no encontrada.
+
+##### `getSubserviceById`
+
+Esta función muestra los servicios secundarios incluidos dentro de un servicio principal. Se usa principalmente para elegir detalles de los servicios deseados y funciona de manera similar a `getServiceById`, insertando primero el ID del servicio principal, y luego el ID del subservicio. Si no existe un subservicio con dicho ID, se devolverá un error `404 - Page Not Found`.
+
+### `/routes`
+
+Acá se encuentran los archivos que contienen las rutas con las que se accede a la información de la carpeta `/data` utilizando los controladores como middleware.
+
+`equiposRoutes.js` contiene la ruta para mostrar los datos del equipo de la empresa, mientras que `servicesRoutes.js` contiene las rutas para mostrar los diferentes servicios y subservicios que ofrece la empresa.
+
+### `app.js`
+
+Este es el archivo principal, encargado de configurar la aplicación Express,
+registrando middlewares y rutas para manejar las peticiones HTTP.
+
+### `/models/server.js`
+
+Este archivo es el encargado de levantar y lanzar el servidor, y el que permite recibir peticiones.
 
 ## Estructura de objetos JSON
 
