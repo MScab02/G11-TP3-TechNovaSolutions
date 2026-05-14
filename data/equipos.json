@@ -3,28 +3,28 @@
     "id": 1,
     "nombre": "Ariana",
     "rol": "Backend Developer",
-    "foto": "/assets/icon/ariana.jpeg",
+    "foto": "assets/icon/ariana.jpeg",
     "descripcion": "Especialista en desarrollo y soluciones tecnológicas."
   },
   {
     "id": 2,
     "nombre": "Matko",
     "rol": "full stack Developer",
-    "foto": "/assets/icon/matko.jpeg",
+    "foto": "assets/icon/matko.jpeg",
     "descripcion": "Apasionado por crear experiencias digitales modernas."
   },
   {
     "id": 3,
     "nombre": "Matias",
     "rol": "Backend Developer",
-    "foto": "/assets/icon/matias.jpeg",
+    "foto": "assets/icon/matias.jpeg",
     "descripcion": "Enfocado en innovación y trabajo en equipo."
   },
   {
     "id": 4,
     "nombre": "Jeremias",
     "rol": "frontend Developer",
-    "foto": "/assets/icon/jeremias.jpeg",
+    "foto": "assets/icon/jeremias.jpeg",
     "descripcion": "Comprometido con el diseño y la calidad del proyecto."
   }
 ]
