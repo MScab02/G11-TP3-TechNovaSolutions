@@ -3,6 +3,7 @@
 ## Descripción
 
 ### TechNova Solutions
+Technova Solutions es una página web que usa API REST desarrollada con Node.js y Express. El frontend está en Github Pages y el backend en Render, lo que nos permite la comunicación entre ambas partes mediante fetch.
 
 Proyecto de Front-End + Back-End para la empresa ficticia TechNova Solutions.
 El proyecto consiste en la unión del trabajo práctico N°1 (Front-End) con el trabajo práctico N°3 (actual) (Back-End), utilizando [Render]:https://render.com para hostearlo de manera pública.
@@ -156,3 +157,11 @@ Este archivo es el encargado de levantar y lanzar el servidor, y el que permite 
   "descripcion": "Especialista en desarrollo y soluciones tecnológicas."
 }
 ```
+- Matías: Página login/perfil + deploy
+- Jeremías: Frontend
+- María: API de equipo
+- Matko: API
+
+## Metodología de trabajo con Git y Github.
+
+El proyecto se desarrolló usando Git con ramas individuales por integrante. Cada integrante trabajó en su rama y luego realizó Pull Request hacia dev.
